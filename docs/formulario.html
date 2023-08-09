@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Time to mix drinks and change lives</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<meta charset="utf-8">
+</head>
+<body>
+<div id="contenedor">
+	<header>
+		<h1>Tema Principal</h1>
+	</header>
+	<nav>
+		<ul>
+			<li> <a href="index.html"> Inicio</a></li>
+			<li> <a href="formulario.html">Formulario</a></li>
+			<li> <a href="galeria.html">Galeria</a></li>
+		</ul>
+	</nav>
+	<main id="mainform">
+		<form name="form1" id="form1" method="get" action="#">
+			<div>
+				<label class="label" for="txtnombre">Nombre</label>
+				<input type="text" name="nombre" id="txtnombre">
+			</div>
+			<div>
+				<label class="label" for="txtapellido">Apellido</label>
+				<input type="text" name="apellido" id="txtapellido">
+			</div>
+			<div>
+				<label class="label">Clave</label>
+			<input type="password" name="password" id="txtpassword">
+			</div>
+			<div>
+				<label class="label" for="txtfecha">Fecha</label>
+				<input type="date" name="fecha" id="txtfecha">
+			</div>
+			<div>
+				<label class="label" for="txtcorreo">Fecha</label>
+				<input type="email" name="correo" id="txtcorreo">
+			</div>
+			<div>
+				<label class="label" for="scomuna">Comuna</label>
+				<select name="comuna" id="scomuna">
+					<option value="0">Peñalolen</option>
+					<option value="1">Macul</option>
+					<option value="2">La Florida</option>
+					<option value="3">Los Angeles</option>
+					<option value="4">Recoleta</option>
+					<option value="5">Ñuñoa</option>
+				</select>
+			</div>
+			<div>
+				<label class="label">Colores</label>
+				<input type="datalist" list="listacolores" name="colores" id="datacolores">
+				<datalist id="listacolores">
+					<option>Rojo</option>
+					<option>Verde</option>
+					<option>Azul</option>
+					<option>Amarillo</option>
+				</datalist>
+			</div>
+			<div>
+				<input type="submit" name="enviar" id=btnenviar value="Enviar">
+				<input type="reset" name="limpiar" id="btnlimpiar" value="Limpiar">
+			</div>
+		</form>
+		<div>
+				<iframe width="400" height="200" src="https://www.youtube.com/embed/7x393waFKDw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="400" height="200" src="https://www.youtube.com/embed/X85KOAYfObc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+	</main>
+	<footer>
+		<span>Clase 29 de Agosto, sección 341</span>
+	</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+h1{
+	margin:0;
+}
+
+#contenedor {
+	background-color: #5A4264;
+	color: #7295D2 ;
+	border: 3px solid #222;
+	border-radius: 22px;
+	width: 900px ;
+}
+
+header {
+	background-color: #6E4BE2;
+	color: #fff; 
+	padding: 20px;
+	text-align: center;
+	border-radius: 18px 18px 0px 0px;
+}
+
+img {
+	max-width: 100%;
+
+}
+p {
+	margin: 15px;
+}
+
+footer {
+	background-color: #6E4BE2;
+	color: #fff; 
+	padding: 20px;
+	text-align: center;
+	border-radius: 0px 0px 18px 18px;
+}
+
+nav {
+	text-align: center;
+
+}
+
+ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	display: block;
+	width: 100px;
+	background-color: #9E91FF;
+	color: #000;
+	padding: 8px;
+	text-decoration-line: none;
+	border: 2px solid #222;
+	font-size: 16px ;
+}
+
+nav ul li a:hover {
+	background-color: #AB5FBB;
+	color: #fff;
+	padding: 8px;
+	font-size: 16px ;
+	border-radius: 15px;
+	transition: 0.4s all ease;
+}
+
+section {
+	width: 40%;
+	height: 40%;
+	border: 1px dashed #000;
+	padding: 20px;
+	display: inline-block;
+	margin-left: 2.5%;
+	margin-bottom: 2.5%;
+	overflow: auto;
+}
+
+#form1 {
+	text-align: center;
+	align-content: center;
+	width: 450px;
+	background-color: #7E378D;
+	color: #95B2DA;
+	margin: 50px;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+input {
+	width: 200px;
+}
+
+select {
+	width: 200px;
+}
+
+.label {
+	text-align: right;
+	display: inline-block;
+	width: 100px;
+	padding: 5px;
+}
+
+#btnlimpiar {
+	width: 100px;
+	margin-top: 5px;
+	margin-left: 5px;
+	padding: 5px;
+}
+
+#btnenviar {
+	width: 100px;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding: 5px;
+}
+
+#mainform {
+	text-align: center;
+}
